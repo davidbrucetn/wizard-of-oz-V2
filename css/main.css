@@ -64,15 +64,17 @@ h2, h3 {
 
 }
 
-main {
-    flex: 3;
-    margin: 1em;
-
-}
-
-aside {
+.flex-item {
+    background-color: hotpink;
+    /*display: flex;
+    flex-flow: column wrap;*/
     flex: 1;
     margin: 1em;
+}
+
+.section-item {
+    margin 0 auto;
+    width: 100%;
 }
 
 footer {
